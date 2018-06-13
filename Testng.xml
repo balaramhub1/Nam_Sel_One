@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="drop-down check" >
+    <classes>
+       <class name="selectors.DropDown" />
+    </classes>
+  </test>
+ 
+  <test name="anotation check">
+    <classes>
+      <class name="testNgOne.AnnotationsOne"/>
+     </classes>
+  </test>
+</suite>
